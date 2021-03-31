@@ -1,0 +1,69 @@
+.itens {
+    display: flex;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    background-color: white;
+    cursor: pointer;
+    height: 70px;
+    align-items: center;
+}
+
+.itens :hover {
+    background-color: rgb(242, 240, 240);
+}
+
+.images {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.conversations {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+}
+
+.conversations-line{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 3px 0;
+    width: 100%;
+}
+
+.conversations-name{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
+.conversations-date{
+    font-size: 16px;
+    color: grey;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 15px;
+    margin-top: 10px;
+    
+}
+.conversations-message {
+    font-size: 16px;
+    color: grey;
+    font-family:'Times New Roman', Times, serif;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 5px;
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.text-message{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+
+}

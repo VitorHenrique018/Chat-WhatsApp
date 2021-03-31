@@ -1,0 +1,10 @@
+body {
+    background-color: #dee7e8;
+    margin: 0;
+}
+
+.window {
+    display: flex;
+    height: 100vh;
+    background-color: #f0efef;
+}
